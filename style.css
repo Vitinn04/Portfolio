@@ -5,7 +5,7 @@ body{
 }
 ul {
     display: flex;
-    gap: 10px;
+    justify-content: space-between;
     list-style-type: none;
     align-items: center;
     padding: 16px;
@@ -43,7 +43,4 @@ footer p{
 }
 .container {
     padding: 0px 50px;
-}
-nav a:hover{
-    color: #4277db;
 }
